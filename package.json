@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --coverage --collectCoverageFrom=src/**/*js --collectCoverageFrom=!src/registerServiceWorker.js",
     "eject": "react-scripts eject",
-    "lint": "eslint --debug src",
+    "lint": "eslint --debug src/",
     "lint:write": "eslint --debug src/ --fix"
   },
   "eslintConfig": {
@@ -34,6 +34,7 @@
     "eslint-plugin-react": "^7.12.4",
     "husky": "^1.3.1"
   },
+  
   "lint-staged": {
     "*.(js|jsx)": [
       "npm run lint:write",
