@@ -4,8 +4,8 @@
 
 Awesome factory line manager!
 
-[build-badge]: https://img.shields.io/travis/fzlorablackwhy/test-app/master.png?style=flat-square
-[build]: https://travis-ci.org/fzlorablackwhy/test-app
+[build-badge]: https://img.shields.io/travis/fzkirablackwhy/test-app/master.png?style=flat-square
+[build]: https://travis-ci.org/fzkirablackwhy/test-app
 
-[coveralls-badge]: https://img.shields.io/coveralls/fzlorablackwhy/test-app/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/fzlorablackwhy/test-app
+[coveralls-badge]: https://img.shields.io/coveralls/fzkirablackwhy/test-app/master.png?style=flat-square
+[coveralls]: https://coveralls.io/github/fzkirablackwhy/test-app
