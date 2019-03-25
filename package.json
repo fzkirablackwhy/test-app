@@ -5,6 +5,7 @@
   "dependencies": {
     "codecov.io": "^0.1.6",
     "coveralls": "^3.0.3",
+    "lint-staged": "^8.1.5",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"
@@ -14,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --coverage --collectCoverageFrom=src/**/*js --collectCoverageFrom=!src/registerServiceWorker.js",
     "eject": "react-scripts eject",
-    "lint": "eslint --debug src/",
+    "lint": "eslint --debug src",
     "lint:write": "eslint --debug src/ --fix"
   },
   "eslintConfig": {
@@ -33,13 +34,11 @@
     "eslint-plugin-react": "^7.12.4",
     "husky": "^1.3.1"
   },
+  "lint-staged": {},
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
       "pre-push": "npm test"
     }
-  },
-  "lint-staged": {
-    "*.(js|jsx)": ["npm run lint:write", "git add"]
   }
 }
