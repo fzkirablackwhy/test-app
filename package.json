@@ -38,10 +38,4 @@
       "pre-push": "npm test"
     }
   },
-  "lint-staged": {
-    "*.js": [
-      "npm run pretty",
-      "git add"
-    ]
-  }
 }
