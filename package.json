@@ -18,7 +18,7 @@
     "lint:write": "eslint --debug src/ --fix"
   },
   "eslintConfig": {
-    "extends": "airbnb"
+    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
