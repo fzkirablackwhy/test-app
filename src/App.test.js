@@ -13,5 +13,5 @@ test("ugly", () => {
 });
 
 test("failing", () => {
-  expect(4).toBe(4);
+  expect(4).toBe(5);
 });
