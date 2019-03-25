@@ -8,10 +8,10 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('ugly', () => {
+test("ugly", () => {
   expect(4).toBe(4);
-  });
+});
 
-  it('failing', () => {
-      expect(4).toBe(5);
-  });
+test("failing", () => {
+  expect(4).toBe(5);
+});
